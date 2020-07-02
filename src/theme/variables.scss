@@ -3,6 +3,23 @@
 
 /** Ionic CSS Variables **/
 :root {
+
+  /**ice**/
+    --ion-color-ice: #33bbff;
+    --ion-color-ice-rgb: 51,187,255;
+    --ion-color-ice-contrast: #000000;
+    --ion-color-ice-contrast-rgb: 0,0,0;
+    --ion-color-ice-shade: #2da5e0;
+    --ion-color-ice-tint: #47c2ff;
+
+  /**aquatica**/
+    --ion-color-aquatica: #0bb783;
+    --ion-color-aquatica-rgb: 11,183,131;
+    --ion-color-aquatica-contrast: #ffffff;
+    --ion-color-aquatica-contrast-rgb: 255,255,255;
+    --ion-color-aquatica-shade: #0aa173;
+    --ion-color-aquatica-tint: #23be8f;
+ 
   /** primary **/
   --ion-color-primary: #3880ff;
   --ion-color-primary-rgb: 56, 128, 255;
@@ -74,6 +91,25 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+}
+
+ 
+.ion-color-ice {
+  --ion-color-base: var(--ion-color-ice);
+  --ion-color-base-rgb: var(--ion-color-ice-rgb);
+  --ion-color-contrast: var(--ion-color-ice-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-ice-contrast-rgb);
+  --ion-color-shade: var(--ion-color-ice-shade);
+  --ion-color-tint: var(--ion-color-ice-tint);
+}
+ 
+.ion-color-aquatica {
+  --ion-color-base: var(--ion-color-aquatica);
+  --ion-color-base-rgb: var(--ion-color-aquatica-rgb);
+  --ion-color-contrast: var(--ion-color-aquatica-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-aquatica-contrast-rgb);
+  --ion-color-shade: var(--ion-color-aquatica-shade);
+  --ion-color-tint: var(--ion-color-aquatica-tint);
 }
 
 @media (prefers-color-scheme: dark) {

@@ -1,5 +1,7 @@
 {
   "name": "tccBagagemDigital",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
